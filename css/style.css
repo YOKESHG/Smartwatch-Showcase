@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eeecf1;
+}
+#logo{
+    width: 100px;
+    height: 38px;
+}
+nav{
+    background-color: #232F3E;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 10px;
+}
+#red_watch{
+    width: 450px;
+    height: 450px;
+    position: relative;
+}
+h1{
+    font-size: 32px;
+    font-family: sans-serif;
+    padding: 16px 16px 16px 0px;
+}
+p{
+    font-size: 16px;
+    font-family: sans-serif;
+    padding-bottom: 16px;
+}
+h3{
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 16px 16px 16px 0px;
+}
+#desc_wrapper{
+    display: flex;
+    margin: 48px 100px 0px 80px;
+}
+#black_btn{
+    width: 45px;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    background-color: #23211f;
+    margin-right: 8px;
+    cursor: pointer;
+}
+#black_btn:hover{
+    transform: scale(1.1,1.1);
+}
+#red_btn{
+    width: 45px;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ca3d22;
+    margin-right: 8px;
+    cursor: pointer;
+}
+#red_btn:hover{
+    transform: scale(1.1,1.1);
+}
+#blue_btn{
+    width: 45px;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    background-color: #565681;
+    margin-right: 8px;
+    cursor: pointer;
+}
+#blue_btn:hover{
+    transform: scale(1.1,1.1);
+}
+#purple_btn{
+    width: 45px;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    background-color:#8a5362;
+    margin-right: 8px;
+    cursor: pointer;
+}
+#purple_btn:hover{
+    transform: scale(1.1,1.1);
+}
+#color_selector{
+    margin-bottom: 16px;
+}
+#time_btn{
+    font-size: 16px;
+    font-family: sans-serif;
+    padding: 4px 10px 4px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 8px;
+    background-color: #aeaeae;
+}
+#time_btn:hover{
+    box-shadow: 1px 2px 3px #949494;
+}
+#heartrate_btn{
+    font-size: 16px;
+    font-family: sans-serif;
+    padding: 4px 10px 4px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;  
+    background-color: #aeaeae;  
+}
+#heartrate_btn:hover{
+    box-shadow: 1px 2px 3px #949494;
+}
+#buy_btn:hover{
+    box-shadow: 1px 2px 3px #949494;
+}
+#features_wrapper{
+    margin-bottom: 32px;
+}
+#buy_btn{
+    font-size: 14px;
+    font-family: sans-serif;
+    padding: 8px 16px 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;   
+    background-color: #f0b92d;
+}
+#time{
+    font-size: 24px;
+    font-family: sans-serif;
+    color:white;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    top: 320px;
+    right: 930px;
+}
+#heart{
+    font-size: 32px;
+    font-family: sans-serif;
+    color: green;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    top: 360px ;
+    right: 958px;
+}
+#sun{
+    color: red;
+    position: absolute;
+    top: -28px;
+    left: -78px;
+    font-size: 64px;
+    animation:beat 1s infinite alternate;
+}
+@keyframes beat{
+    0%{
+        transform: scale(1.2,1.2);
+    }
+}
